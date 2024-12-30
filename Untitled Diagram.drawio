@@ -199,11 +199,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="POBBTVQxZTX1i6_GhXPW" name="Process create order &amp; food serving with special events">
-    <mxGraphModel dx="993" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1444" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="srnD8k7QyPjP2JszpDHm-1" value="Process Order Via Mobile (Booking)" style="shape=table;childLayout=tableLayout;startSize=40;collapsible=0;recursiveResize=0;expand=0;fillColor=none;fontStyle=1;strokeColor=default;" vertex="1" parent="1">
+        <mxCell id="srnD8k7QyPjP2JszpDHm-1" value="Process Order Via Mobile (Booking)" style="shape=table;childLayout=tableLayout;startSize=40;collapsible=0;recursiveResize=0;expand=0;fillColor=none;fontStyle=1;strokeColor=default;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
           <mxGeometry x="41" y="50" width="809" height="1190" as="geometry" />
         </mxCell>
         <mxCell id="srnD8k7QyPjP2JszpDHm-2" value="Process Create Order" style="shape=tableRow;horizontal=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;startSize=40;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;verticalAlign=middle;" vertex="1" parent="srnD8k7QyPjP2JszpDHm-1">
@@ -431,7 +431,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="i5tUwRQeHIYrtKErV6PV-1" value="Waitress" style="swimlane;startSize=40;" vertex="1" parent="1">
-          <mxGeometry x="850" y="90" width="219" height="1150" as="geometry" />
+          <mxGeometry x="850" y="90" width="220" height="900" as="geometry">
+            <mxRectangle x="850" y="90" width="90" height="40" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="srnD8k7QyPjP2JszpDHm-48" value="Update food served" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="i5tUwRQeHIYrtKErV6PV-1">
           <mxGeometry x="30" y="980" width="90" height="40" as="geometry" />
@@ -444,6 +446,9 @@
         </mxCell>
         <mxCell id="srnD8k7QyPjP2JszpDHm-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="srnD8k7QyPjP2JszpDHm-45" target="srnD8k7QyPjP2JszpDHm-48">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vqF95VGkzoP1Dcm0QJNz-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="850" y="990" width="220" height="250" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
